@@ -1,3 +1,12 @@
+public void handleAccount() {
+    System.debug('Handling account');
+}
+
+public void updateAccount(Account acc) {
+    System.debug('Updating account: ' + acc.Name);
+}
+}
+
 public class AccountHandler {
 	public void handleAccount() {
         System.debug('Handling account');
@@ -7,3 +16,4 @@ public class AccountHandler {
         System.debug('Adding contact: ' + con.LastName);
 	}
 }
+
